@@ -1,5 +1,6 @@
 # PSEUDO-CODIGO
  Travessia - Ovelha - Repolho e Lobo
+
 INICIO DO JOGO
   1. Ovelha entra no barco
   2. barco atravessa o rio
