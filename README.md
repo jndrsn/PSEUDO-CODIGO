@@ -19,4 +19,5 @@ INICIO DO JOGO
   15. Ovelha sobe no barco
   16. barco atravessa o rio
   17. Ovelha desce do barco
+
 FIM DO JOGO
