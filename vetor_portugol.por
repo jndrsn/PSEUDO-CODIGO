@@ -3,24 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contador, limite, resultado, numero
+		inteiro contador = 0
+		cadeia frutas[4]
 
-		contador = 0
-
-		escreva("A TABUADA DE QUAL NUMERO VOCÊ DESEJA ? ")
-		leia(numero)
-
-		escreva("\n QUAL O LIMITE DE CALCULO DA SUA TABUADA DE " + numero + " ? ")
-		leia(limite)
+		frutas[0]="Maçã"
+		frutas[1]="Pera"
+		frutas[2]="Uva"
+		frutas[3]="Jaca"
 
 		faca{
-					
-			resultado = numero * contador
-			escreva(numero + " X " + contador + " = " + resultado + "\n")
-			contador++
-						
-		}enquanto(contador<=limite)
-			
+				escreva(frutas[contador] + "\n")
+				contador++	
+			}enquanto(contador<=3)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 262; 
+ * @POSICAO-CURSOR = 199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

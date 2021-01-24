@@ -3,24 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contador, limite, resultado, numero
-
-		contador = 0
-
-		escreva("A TABUADA DE QUAL NUMERO VOCÊ DESEJA ? ")
-		leia(numero)
-
-		escreva("\n QUAL O LIMITE DE CALCULO DA SUA TABUADA DE " + numero + " ? ")
-		leia(limite)
+		inteiro contador=0
+		cadeia endereco[][]={{"JOÃO","SÃO PAULO","(11) 9999-5241"}, {"MARIA","RIBEIRAO PRETO","(16) 9999-8596"},{"ANA","MANAUS","(92) 9999-8574"}}
 
 		faca{
-					
-			resultado = numero * contador
-			escreva(numero + " X " + contador + " = " + resultado + "\n")
-			contador++
-						
-		}enquanto(contador<=limite)
-			
+			escreva ("Nome " + endereco[contador][0] + " -- Região " + endereco[contador][1] + " -- Telefone " + endereco[contador][2] + "\n")
+			contador++ 
+		}enquanto(contador<=2)
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 262; 
+ * @POSICAO-CURSOR = 383; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
