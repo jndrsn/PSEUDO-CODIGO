@@ -1,4 +1,5 @@
 # PSEUDO-CODIGO
+## Resoluções de alguns jogos, como forma de treinamento prático e exercícios de adaptação para realizar upload ao meu repositório no GITHUB.
 
  Travessia - Ovelha - Repolho e Lobo
 
